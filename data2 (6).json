@@ -1,0 +1,456 @@
+{
+    "users": [
+        {
+            "email": "josh@gmail.com",
+            "password": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+            "role": "instructor",
+            "person": {
+                "name": "Josh",
+                "phone": "09087696401",
+                "address": "Kabacan Cotabato",
+                "date_of_birth": "2000-12-12",
+                "instructor_id": "123",
+                "courses_taught": [
+                    {
+                        "name": "OOP",
+                        "description": "Object Oriented Programming",
+                        "schedule": {
+                            "start_date": "2024-01-01",
+                            "end_date": "2024-06-01",
+                            "class_time": "10:00 AM",
+                            "days": [
+                                "Monday",
+                                "Wednesday"
+                            ]
+                        },
+                        "assignments": [
+                            {
+                                "assignment_name": "OOP",
+                                "description": "coding",
+                                "due_date": "2024-10-10",
+                                "grades": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Data Science",
+                        "description": "Data",
+                        "schedule": {
+                            "start_date": "2024-01-01",
+                            "end_date": "2024-06-01",
+                            "class_time": "2:00 PM",
+                            "days": [
+                                "Tuesday",
+                                "Thursday"
+                            ]
+                        },
+                        "assignments": []
+                    }
+                ]
+            }
+        },
+        {
+            "email": "man@gmail.com",
+            "password": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+            "role": "admin",
+            "person": {
+                "name": "man",
+                "phone": "123",
+                "address": "123",
+                "date_of_birth": "2002-12-12"
+            }
+        },
+        {
+            "email": "gem@gmail.com",
+            "password": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+            "role": "student",
+            "person": {
+                "name": "Gem",
+                "phone": "13432",
+                "address": "pkt",
+                "date_of_birth": "2004-11-06",
+                "student_id": "1106",
+                "courses": [
+                    {
+                        "course_id": "CS06",
+                        "name": "OOP",
+                        "description": "Object-Oriented Programming"
+                    }
+                ],
+                "grades": [
+                    {
+                        "course_name": "OOP",
+                        "grade": "90"
+                    }
+                ]
+            }
+        },
+        {
+            "email": "Admin@gmail.com",
+            "password": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+            "role": "admin",
+            "person": {
+                "name": "Admin",
+                "phone": "010101",
+                "address": "pkt",
+                "date_of_birth": "2004-10-10"
+            }
+        },
+        {
+            "email": "Jiovany@gmail.com",
+            "password": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+            "role": "student",
+            "person": {
+                "name": "Jiovany",
+                "phone": "09155654133",
+                "address": "Pikit Cotabato",
+                "date_of_birth": "2004-01-08",
+                "student_id": "0108",
+                "courses": [
+                    {
+                        "course_id": "CS06",
+                        "name": "OOP",
+                        "description": "Object-Oriented Programming",
+                        "schedule": {
+                            "start_date": "2024-01-01",
+                            "end_date": "2024-06-01",
+                            "class_time": "10:00 AM",
+                            "days": [
+                                "Monday",
+                                "Wednesday"
+                            ]
+                        }
+                    },
+                    {
+                        "course_id": "CS07",
+                        "name": "Data Science",
+                        "description": "Data",
+                        "schedule": {
+                            "start_date": "2024-01-01",
+                            "end_date": "2024-06-01",
+                            "class_time": "2:00 PM",
+                            "days": [
+                                "Tuesday",
+                                "Thursday"
+                            ]
+                        }
+                    }
+                ],
+                "grades": []
+            }
+        },
+        {
+            "email": "philip@gmail.com",
+            "password": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+            "role": "student",
+            "person": {
+                "name": "Philip",
+                "phone": "0101",
+                "address": "Davao",
+                "date_of_birth": "2004-10-04",
+                "student_id": "1004",
+                "courses": [],
+                "grades": {}
+            }
+        },
+        {
+            "email": "charlotte@gmail.com",
+            "password": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+            "role": "student",
+            "person": {
+                "name": "Charlotte",
+                "phone": "123",
+                "address": "Polomolok",
+                "date_of_birth": "2004-05-14",
+                "student_id": "0514",
+                "courses": [],
+                "grades": {}
+            }
+        },
+        {
+            "email": "yestin@gmail.com",
+            "password": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+            "role": "instructor",
+            "person": {
+                "name": "Yestin",
+                "phone": "123",
+                "address": "Kidapawan",
+                "date_of_birth": "2005-02-07",
+                "instructor_id": "0207",
+                "courses_taught": []
+            }
+        }
+    ],
+    "students": [
+        {
+            "name": "Gem",
+            "phone": "13432",
+            "address": "Kidapawan",
+            "date_of_birth": "2004-11-06",
+            "student_id": "1106",
+            "courses": [
+                {
+                    "course_id": "CS06",
+                    "name": "OOP",
+                    "description": "Object-Oriented Programming",
+                    "schedule": {
+                        "start_date": "2024-01-01",
+                        "end_date": "2024-06-01",
+                        "class_time": "10:00 AM",
+                        "days": [
+                            "Monday",
+                            "Wednesday"
+                        ]
+                    }
+                }
+            ],
+            "grades": [
+                {
+                    "course_name": "OOP",
+                    "grade": "90"
+                }
+            ]
+        },
+        {
+            "name": "Jiovany",
+            "phone": "09155654133",
+            "address": "Pikit Cotabato",
+            "date_of_birth": "2004-01-08",
+            "student_id": "0108",
+            "courses": [
+                {
+                    "course_id": "CS06",
+                    "name": "OOP",
+                    "description": "Object-Oriented Programming",
+                    "schedule": {
+                        "start_date": "2024-01-01",
+                        "end_date": "2024-06-01",
+                        "class_time": "10:00 AM",
+                        "days": [
+                            "Monday",
+                            "Wednesday"
+                        ]
+                    }
+                },
+                {
+                    "course_id": "CS07",
+                    "name": "Data Science",
+                    "description": "Data",
+                    "schedule": {
+                        "start_date": "2024-01-01",
+                        "end_date": "2024-06-01",
+                        "class_time": "2:00 PM",
+                        "days": [
+                            "Tuesday",
+                            "Thursday"
+                        ]
+                    }
+                }
+            ],
+            "grades": [
+                {
+                    "course_name": "OOP",
+                    "grade": "90"
+                },
+                {
+                    "course_name": "Data Science",
+                    "grade": "90"
+                }
+            ]
+        },
+        {
+            "name": "Philip",
+            "phone": "0101",
+            "address": "Davao",
+            "date_of_birth": "2004-10-04",
+            "student_id": "1004",
+            "courses": [],
+            "grades": {}
+        },
+        {
+            "name": "Charlotte",
+            "phone": "123",
+            "address": "Polomolok",
+            "date_of_birth": "2004-05-14",
+            "student_id": "0514",
+            "courses": [
+                {
+                    "course_id": "CS08",
+                    "name": "DBMS",
+                    "description": "Database Management Systems",
+                    "schedule": {
+                        "start_date": "2024-01-01",
+                        "end_date": "2024-06-01",
+                        "class_time": "8:00 AM",
+                        "days": [
+                            "Monday",
+                            "Friday"
+                        ]
+                    }
+                },
+                {
+                    "course_id": "CS06",
+                    "name": "OOP",
+                    "description": "Object-Oriented Programming",
+                    "schedule": {
+                        "start_date": "2024-01-01",
+                        "end_date": "2024-06-01",
+                        "class_time": "10:00 AM",
+                        "days": [
+                            "Monday",
+                            "Wednesday"
+                        ]
+                    }
+                }
+            ],
+            "grades": [
+                {
+                    "course_name": "OOP",
+                    "grade": "90"
+                }
+            ]
+        }
+    ],
+    "instructors": [
+        {
+            "name": "Josh",
+            "phone": "123",
+            "address": "Kabacan Cotabato",
+            "date_of_birth": "2000-12-12",
+            "instructor_id": "123",
+            "courses_taught": [
+                {
+                    "name": "OOP",
+                    "description": "Object Oriented Programming",
+                    "schedule": {
+                        "start_date": "2024-01-01",
+                        "end_date": "2024-06-01",
+                        "class_time": "10:00 AM",
+                        "days": [
+                            "Monday",
+                            "Wednesday"
+                        ]
+                    },
+                    "assignments": [
+                        {
+                            "assignment_name": "OOP",
+                            "description": "coding",
+                            "due_date": "2024-10-10",
+                            "grades": [
+                                {
+                                    "student_id": "0108",
+                                    "grade": "90"
+                                },
+                                {
+                                    "student_id": "0514",
+                                    "grade": "90"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Data Science",
+                    "description": "Data",
+                    "schedule": {
+                        "start_date": "2024-01-01",
+                        "end_date": "2024-06-01",
+                        "class_time": "2:00 PM",
+                        "days": [
+                            "Tuesday",
+                            "Thursday"
+                        ]
+                    },
+                    "assignments": []
+                },
+                {
+                    "name": "DBMS",
+                    "description": "Database Management Systems",
+                    "assignments": []
+                }
+            ]
+        },
+        {
+            "name": "Yestin",
+            "phone": "123",
+            "address": "Kidapawan",
+            "date_of_birth": "2005-02-07",
+            "instructor_id": "0207",
+            "courses_taught": [
+                {
+                    "name": "DBMS",
+                    "description": "Database Management Systems",
+                    "assignments": [
+                        {
+                            "assignment_name": "DBMS",
+                            "description": "Database",
+                            "due_date": "2024-12-20",
+                            "grades": []
+                        }
+                    ]
+                },
+                {
+                    "name": "OOP",
+                    "description": "Object-Oriented Programming",
+                    "assignments": []
+                }
+            ]
+        }
+    ],
+    "courses": [
+        {
+            "course_id": "CS06",
+            "name": "OOP",
+            "description": "Object-Oriented Programming",
+            "schedule": {
+                "start_date": "2024-01-01",
+                "end_date": "2024-06-01",
+                "class_time": "10:00 AM",
+                "days": [
+                    "Monday",
+                    "Wednesday"
+                ]
+            }
+        },
+        {
+            "course_id": "CS07",
+            "name": "Data Science",
+            "description": "Data",
+            "schedule": {
+                "start_date": "2024-01-01",
+                "end_date": "2024-06-01",
+                "class_time": "2:00 PM",
+                "days": [
+                    "Tuesday",
+                    "Thursday"
+                ]
+            }
+        },
+        {
+            "course_id": "CS08",
+            "name": "DBMS",
+            "description": "Database Management Systems",
+            "schedule": {
+                "start_date": "2024-01-01",
+                "end_date": "2024-06-01",
+                "class_time": "8:00 AM",
+                "days": [
+                    "Monday",
+                    "Friday"
+                ]
+            }
+        },
+        {
+            "course_id": "Stat01",
+            "name": "Applied Statistics",
+            "description": "Statistics"
+        },
+        {
+            "course_id": "CS05",
+            "name": "Algorithm",
+            "description": "Algorithm and Complexity"
+        }
+    ],
+    "assignments": [],
+    "grades": []
+}
